@@ -1,0 +1,17 @@
+{
+  "name": "Selenium-calculator-testing",
+  "version": "1.0.0",
+  "description": "Selenium webdriver testing for calculator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "build": "node ./app.js"
+  },
+  "keywords": [],
+  "author": "Niket Tongare",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^111.0.0",
+    "selenium-webdriver": "^4.8.2"
+  }
+}
